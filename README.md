@@ -57,7 +57,7 @@
 ---
 > * [HTML5](https://html.com/html5/) : The markup language used for structuring and presenting content on the Discover New Zealand website.
 > * [CSS3](https://html.com/css/) : The language that defines the presentation of a website Discover New Zealand.
-> * [BOOTSTRAP V5.0](https://getbootstrap.com/) : Used in the project to create a mobile-first designed website. It is the most popular front-end open source toolkit.
+> * [BOOTSTRAP V4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) : Used in the project to create a mobile-first designed website. It is the most popular front-end open source toolkit.
 > * [FONT AWESOME](https://fontawesome.com/) : Used in the project to provide vector icons and social media logos.
 > * [GOOGLE FONTS](https://fonts.google.com/) : Provided typography to the project. It is a robust collection of open source designer web fonts.
 > * [TINY PNG](https://tinypng.com/) : Used to reduce the file size of PNG files in the project.
