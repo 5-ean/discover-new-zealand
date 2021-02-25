@@ -38,7 +38,7 @@
         </div>
     </header>
     
-    <article class="container mt-3">
+    <div class="container mt-3">
         <div class="row content-title">
             <div class="col-12">
                 <section class="heading-text text-center">
@@ -46,12 +46,12 @@
                 </section>
             </div>
         </div>
-    </article>
-
+    </div>
+<!-- Based on Bootstrap form documentation ref= -->
     <form class="container content-bg content-text was-validated">
         <div class="form-row">
             <div class="col-6">
-            <input type="text" class="form-control bold" id="fname" placeholder="First name" required>
+            <input type="text" class="form-control bold" placeholder="First name" required>
             <div class="valid-feedback bold">
                 Looks good!
             </div>
@@ -60,7 +60,7 @@
             </div>
             </div>
             <div class="col-6">
-            <input type="text" class="form-control bold" id="lname" placeholder="Last name" required>
+            <input type="text" class="form-control bold" placeholder="Last name" required>
             <div class="valid-feedback bold">
                 Looks good!
             </div>
@@ -112,7 +112,7 @@
         <div class="form-row">
             <div class="col">
                 <textarea rows="5" class="form-control content-text bold" placeholder="Please put your question/message here..." required></textarea>
-                    <div class="valid-feedback bold">
+                    <div class="col-sm col-md col-lg-4 valid-feedback bold content-bg-text text-center">
                     Thanks for taking the time to write your enquiry to us!
                     </div>
                     <div class="invalid-feedback bold">
@@ -143,7 +143,7 @@
             <button type="submit" class="btn btn-lg btn-outline-dark bold">Submit</button>
         </div>
     </form>
-
+<!--/.Based on Bootstrap form documentation -->
     <footer>
         <div class="container-fluid footer-container footer-bg">
             <div class="row">
