@@ -1,16 +1,26 @@
 
-# DISCOVER NEW ZEALAND 
+# **DISCOVER NEW ZEALAND** 
+---
 ## INTRODUCTION
+---
 >
 >This project sets out to engage with users on a multitude of devices and encourages them to discover New Zealand. Using UX principles to create a responsive and attractive website, that will increase exposer of the region. Ultimately leading to increased website traffic and an uptake in enquiries satisfying the business objective stated below.
 >python3 -m http.server
----
-## UX
----
-### **STRATEGY**, **SCOPE & STRUCTURE**
 
+## CONTENT:
+> ## - [UX](##UX)
+> ## - [FEATURES](##FEATURES)
+> ## - [TECHNOLOGIES USED](##TECHNOLOGIES-USED)
+> ## - [TESTING](##TESTING)
+> ## - [DEPLOYMENT](##DEPLOYMENT)
+> ## - [CREDITS](##CREDITS)
+
+---
+## **UX**
+---
+### **STRATEGY**, **SCOPE & STRUCTURE*
 **Business Objective:**
->The **business objective** is to increase interest in visiting New Zealand through the *Discover New Zealand* webiste. The objective is focused on B2C (business to customer) sales, so it will be a more emotive driven experience. Using bold visuals and accessible language will ensure the project reaches the largest possible user base.
+>The **business objective** is to increase interest in visiting New Zealand through the [*Discover New Zealand*](https://5-ean.github.io/discover-new-zealand/) webiste. The objective is focused on B2C (business to customer) sales, so it will be a more emotive driven experience. Using bold visuals and accessible language will ensure the project reaches the largest possible user base.
 
 **Target User:** 
 > * Users curious about New Zealand
@@ -47,13 +57,13 @@
 >The remaining features and content kept in make up the **minimal viable product** at this time. The **MVP** *(minimal viable product)* consists of the [Home](/workspace/discover-new-zealand/assets/ux_assets/images/index.html-wireframe.pdf) page, [About](/workspace/discover-new-zealand/assets/ux_assets/images/about.html-wireframe.pdf), [Gallery](/workspace/discover-new-zealand/assets/ux_assets/images/gallery.html-wireframe.pdf) & [Get In Touch](/workspace/discover-new-zealand/assets/ux_assets/images/get-in-touch.html-wireframe.pdf) pages respectively.
 
 ---
-### **FEATURES**
+## **FEATURES**
 ---
-
+**
 
 
 ---
-### **TECHNOLOGIES USED**
+## **TECHNOLOGIES USED**
 ---
 > * [HTML5](https://html.com/html5/) : The markup language used for structuring and presenting content on the Discover New Zealand website.
 > * [CSS3](https://html.com/css/) : The language that defines the presentation of a website Discover New Zealand.
@@ -62,15 +72,27 @@
 > * [GOOGLE FONTS](https://fonts.google.com/) : Provided typography to the project. It is a robust collection of open source designer web fonts.
 > * [TINY PNG](https://tinypng.com/) : Used to reduce the file size of PNG files in the project.
 > * [BALSAMIQ](https://balsamiq.com/) : Used to create a table and multiple wireframes for the project. Licence provided by [Code Institute](https://codeinstitute.net/).
+> * [GITPOD](https://www.gitpod.io/) : The interaction development environment (IDE) used to write the projects code.
+> * [GITHUB](https://github.com/) : Provides hosting for software development version control using Git. The host of this project.
+> * [GIT](https://git-scm.com/) : Git is a free and open source distributed version control system.
 
 ---
-### **TESTING**
+## **TESTING**
 ---
 
 ---
-### **DEPLOYMENT**
+## **DEPLOYMENT**
 ---
+**How I Deploy The Project To GitHub:**
+> 1. Log on to [GitHub](https://github.com/), clicked the repository named [discover-new-zealand](https://github.com/5-ean/discover-new-zealand).
+> 2. Select the settings tab and scroll to the section headed GitHub Pages.
+> 3. In the sub-heading of Source, select the master branch and then save.
+> 4. The site is now deployed and a live [link](https://5-ean.github.io/discover-new-zealand/get-in-touch.html) is given.
 
+**How To Deploy Locally:**
+> 1. Log on to [GitHub](https://github.com/), clicked the repository named [discover-new-zealand](https://github.com/5-ean/discover-new-zealand).
+> 2. Select the dropdown tab "Code" and choose Download ZIP.
+> 3. Un-zip files and it's ready to use on your local environment.
 ---
-### **CREDITS**
+## **CREDITS**
 ---
