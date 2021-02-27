@@ -264,6 +264,7 @@ div.social-section ul {
         font-size: 1.8vw;
     }
 
+}
 
 @media(min-width: 992px) {
     .navbar-brand {
@@ -273,4 +274,4 @@ div.social-section ul {
     .navbar-nav {
         font-size: 1.25vw;
     }
-}
+}   
