@@ -8,15 +8,15 @@
 >python3 -m http.server
 
 ## CONTENT:
-> ## - [UX](##UX)
-> ## - [FEATURES](##FEATURES)
-> ## - [TECHNOLOGIES USED](##TECHNOLOGIES-USED)
-> ## - [TESTING](##TESTING)
-> ## - [DEPLOYMENT](##DEPLOYMENT)
-> ## - [CREDITS](##CREDITS)
+> # - [UX](##ux-deployment)
+> # - [FEATURES](##features)
+> # - [TECHNOLOGIES USED](##techonologies-used)
+> # - [TESTING](##testing)
+> # - [DEPLOYMENT](##deployment)
+> # - [CREDITS](##credits)
 
 ---
-## **UX**
+## **UX DEPLOYMENT**
 ---
 ### **STRATEGY**, **SCOPE & STRUCTURE*
 **Business Objective:**
