@@ -58,7 +58,7 @@
 ---
 # FEATURES
 ---
-[**W3C Valildator**](https://validator.w3.org/)
+
 
 
 ---
@@ -78,7 +78,19 @@
 ---
 # TESTING
 ---
+[**W3C Validator :**](https://validator.w3.org/)
 
+> * Index.html - ![Image](assets/ux_assets/images/index.html-w3c-validator.png)
+
+> * about.html - ![Image](assets/ux_assets/images/about.html-w3c-validator.png)
+
+> * gallery.html - ![Image](assets/ux_assets/images/gallery.html-w3c-validator.png) 
+
+> * get-in-touch.html - ![Image](assets/ux_assets/images/get-in-touch.html-w3c-validator.png)
+
+[**CSS Validator :**](https://jigsaw.w3.org/css-validator/)
+
+> * style.css - ![Image](assets/ux_assets/images/style.css-jigsaw-validator.png)
 ---
 # DEPLOYMENT
 ---
@@ -86,7 +98,7 @@
 > 1. Log on to [GitHub](https://github.com/), clicked the repository named [discover-new-zealand](https://github.com/5-ean/discover-new-zealand).
 > 2. Select the settings tab and scroll to the section headed GitHub Pages.
 > 3. In the sub-heading of Source, select the master branch and then save.
-> 4. The site is now deployed and a live [link](https://5-ean.github.io/discover-new-zealand/get-in-touch.html) is given.
+> 4. The site is now deployed and a live [link](https://5-ean.github.io/discover-new-zealand/) is given.
 
 **How To Deploy Locally:**
 > 1. Log on to [GitHub](https://github.com/), clicked the repository named [discover-new-zealand](https://github.com/5-ean/discover-new-zealand).
