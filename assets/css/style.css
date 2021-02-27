@@ -204,13 +204,14 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 50px;
+    height: 25px;
     width: 100%;
-    padding-top: 55px;
+    
     
 }
 .footer-container {
-    color: black;  
+    color: black;
+    margin-top: 55px;
 }
 
 .copywrite {
