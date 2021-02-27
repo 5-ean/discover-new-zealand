@@ -1,22 +1,21 @@
 
 # **DISCOVER NEW ZEALAND** 
 ---
-## INTRODUCTION
+# INTRODUCTION
 ---
 >
 >This project sets out to engage with users on a multitude of devices and encourages them to discover New Zealand. Using UX principles to create a responsive and attractive website, that will increase exposer of the region. Ultimately leading to increased website traffic and an uptake in enquiries satisfying the business objective stated below.
 >python3 -m http.server
 
 ## CONTENT:
-> # - [UX](##ux-deployment)
-> # - [FEATURES](##features)
-> # - [TECHNOLOGIES USED](##techonologies-used)
-> # - [TESTING](##testing)
-> # - [DEPLOYMENT](##deployment)
-> # - [CREDITS](##credits)
-
+> ## - [UX](#ux-deployment)
+> ## - [FEATURES](#features)
+> ## - [TECHNOLOGIES USED](#technologies-used)
+> ## - [TESTING](#testing)
+> ## - [DEPLOYMENT](#deployment)
+> ## - [CREDITS](#credits)
 ---
-## **UX DEPLOYMENT**
+# UX DEPLOYMENT
 ---
 ### **STRATEGY**, **SCOPE & STRUCTURE*
 **Business Objective:**
@@ -40,7 +39,7 @@
 >
 > 5. "As a less technical user I want an easy to navigate website, over-complicated designs will put me off exploring the site. Which will keep me for recommending and returning to the website in the future."  
 
->**Addressing User Stories & Business Objective**  
+**Addressing User Stories & Business Objective**  
 > * Home page: basic requirement for all sites, will “sell” experience to user and provide eye catching hero image (addressing business objective).
 > * About page: addressing user story 1.
 > * Gallery page: addressing user story 3.
@@ -57,13 +56,13 @@
 >The remaining features and content kept in make up the **minimal viable product** at this time. The **MVP** *(minimal viable product)* consists of the [Home](/workspace/discover-new-zealand/assets/ux_assets/images/index.html-wireframe.pdf) page, [About](/workspace/discover-new-zealand/assets/ux_assets/images/about.html-wireframe.pdf), [Gallery](/workspace/discover-new-zealand/assets/ux_assets/images/gallery.html-wireframe.pdf) & [Get In Touch](/workspace/discover-new-zealand/assets/ux_assets/images/get-in-touch.html-wireframe.pdf) pages respectively.
 
 ---
-## **FEATURES**
+# FEATURES
 ---
-**
+[**W3C Valildator**](https://validator.w3.org/)
 
 
 ---
-## **TECHNOLOGIES USED**
+# TECHNOLOGIES USED
 ---
 > * [HTML5](https://html.com/html5/) : The markup language used for structuring and presenting content on the Discover New Zealand website.
 > * [CSS3](https://html.com/css/) : The language that defines the presentation of a website Discover New Zealand.
@@ -77,11 +76,11 @@
 > * [GIT](https://git-scm.com/) : Git is a free and open source distributed version control system.
 
 ---
-## **TESTING**
+# TESTING
 ---
 
 ---
-## **DEPLOYMENT**
+# DEPLOYMENT
 ---
 **How I Deploy The Project To GitHub:**
 > 1. Log on to [GitHub](https://github.com/), clicked the repository named [discover-new-zealand](https://github.com/5-ean/discover-new-zealand).
@@ -94,5 +93,10 @@
 > 2. Select the dropdown tab "Code" and choose Download ZIP.
 > 3. Un-zip files and it's ready to use on your local environment.
 ---
-## **CREDITS**
+# CREDITS
 ---
+
+
+
+
+
