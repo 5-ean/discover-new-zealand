@@ -118,8 +118,8 @@
 [**Google Lighthouse :**](https://developers.google.com/web/tools/lighthouse/)
 
 >Index.html - 
-> * [Mobile Test](https://github.com/5-ean/discover-new-zealand/blob/1e302f3a19cb9edb755af3fda2546d08fa2daaae/assets/ux_assets/images/lighthouse-images/index-mobile.pdf)
-> * [Desktop Test](https://github.com/5-ean/discover-new-zealand/blob/1e302f3a19cb9edb755af3fda2546d08fa2daaae/assets/ux_assets/images/lighthouse-images/index-desktop.pdf)
+> * [Mobile Test](assets/ux_assets/images/lighthouse-images/index-mobile.pdf)
+> * [Desktop Test](assets/ux_assets/images/lighthouse-images/index-desktop.pdf)
 
 >About.html - 
 > * []()
