@@ -117,13 +117,24 @@
 
 [**Google Lighthouse :**](https://developers.google.com/web/tools/lighthouse/)
 
->Index.html - 
+>Home Page - 
 > * [Mobile Test](assets/ux_assets/images/lighthouse-images/index-mobile.pdf)
 > * [Desktop Test](assets/ux_assets/images/lighthouse-images/index-desktop.pdf)
 
->About.html - 
-> * []()
-> * []()
+>About Page - 
+> * [Mobile Test](assets/ux_assets/images/lighthouse-images/about-mobile.pdf)
+> * [Desktop Test](assets/ux_assets/images/lighthouse-images/about-desktop.pdf)
+
+>Gallery Page - 
+> * [Mobile Test](assets/ux_assets/images/lighthouse-images/gallery-mobile.pdf)
+> * [Desktop Test](assets/ux_assets/images/lighthouse-images/gallery-desktop.pdf)
+> * Notes - Images used for the bootstrap carousel are large on mobile device, resulting in a drop in performance rating.
+
+>Get In Touch Page - 
+> * [Mobile Test](assets/ux_assets/images/lighthouse-images/get-in-touch-mobile.pdf)
+> * [Desktop Test](assets/ux_assets/images/lighthouse-images/get-in-touch-desktop.pdf)
+> * Notes - Drop in accessibility rating for form as there are no labels for inputs. It was stylistic choice; not corrected at this time. A Fix would be to apply labels to all form elements instead of using placeholders, to better describe the field.
+
 ---
 # DEPLOYMENT
 ---
