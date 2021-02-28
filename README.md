@@ -17,7 +17,7 @@
 ---
 # UX DEPLOYMENT
 ---
-### **STRATEGY**, **SCOPE & STRUCTURE*
+### **STRATEGY, SCOPE & STRUCTURE**
 **Business Objective:**
 >The **business objective** is to increase interest in visiting New Zealand through the [*Discover New Zealand*](https://5-ean.github.io/discover-new-zealand/) webiste. The objective is focused on B2C (business to customer) sales, so it will be a more emotive driven experience. Using bold visuals and accessible language will ensure the project reaches the largest possible user base.
 
@@ -55,12 +55,33 @@
 
 >The remaining features and content kept in make up the **minimal viable product** at this time. The **MVP** *(minimal viable product)* consists of the [Home](https://github.com/5-ean/discover-new-zealand/blob/7f9d3df776b7bd97d4fdb0b2986230bd2601a7bd/assets/ux_assets/images/index.html-wireframe.pdf) page, [About](https://github.com/5-ean/discover-new-zealand/blob/7f9d3df776b7bd97d4fdb0b2986230bd2601a7bd/assets/ux_assets/images/about.html-wireframe.pdf), [Gallery](https://github.com/5-ean/discover-new-zealand/blob/7f9d3df776b7bd97d4fdb0b2986230bd2601a7bd/assets/ux_assets/images/gallery.html-wireframe.pdf) & [Get In Touch](https://github.com/5-ean/discover-new-zealand/blob/7f9d3df776b7bd97d4fdb0b2986230bd2601a7bd/assets/ux_assets/images/get-in-touch.html-wireframe.pdf) pages respectively.
 
+**Colour Scheme & Background**
+> The pictures used for the project were of natural landscapes with high ratios of green, blue, white, and brown colouring. Therefore, the stylistic choice was to use off white/grey colouring with opacity for the nav header & footer elements. This along with subtle, thin borders around content elements gave a natural feel to the site overall.
+
+**Buttons & Links**
+
+>To aid usability links and buttons followed the same style. Notably changing from black to white as a hover element. This is a sharp contrast and a nod to New Zealand Sports and Culture as white and black have long been the colour scheme for the country in many regards.
+
 ---
 # FEATURES
 ---
+**Home Page / Navigation & Footer Elements -**
+> * Bootstrap based Nav header, with collapse function in mobile view.
+> * Social links in footer element.
+>![Image](assets/ux_assets/images/screenshots/index-mobile.png) ![Image](assets/ux_assets/images/screenshots/index-mobile-nav-active.png) ![Image](assets/ux_assets/images/screenshots/index-desktop.png) 
 
+**About Page / Information Content -** 
+> * Detailed information section, with Learn more button links to relavent wiki pages for additional information.
+>
+>![Image](assets/ux_assets/images/screenshots/about-mobile.png) ![Image](assets/ux_assets/images/screenshots/about-desktop.png)
 
+**Gallery Page / Google Maps Location Links -**
+> * Three images contained in a bootstrap carousel, caption including breif description & Google maps link to picture location.
+>![Image](assets/ux_assets/images/screenshots/gallery-mobile.png) ![Image](assets/ux_assets/images/screenshots/gallery-desktop.png)
 
+**Get In Touch Page / User Form submission -**
+> * Active user feedback on form submittion status, helpful hints and directions to aid the user.
+>![Image](assets/ux_assets/images/screenshots/get-in-touch-mobile.png) ![Image](assets/ux_assets/images/screenshots/get-in-touch-desktop.png)
 ---
 # TECHNOLOGIES USED
 ---
@@ -79,17 +100,18 @@
 ---
 [**W3C Validator :**](https://validator.w3.org/)
 
-> * Index.html - ![Image](assets/ux_assets/images/index.html-w3c-validator.png)
+> * Index.html - ![Image](assets/ux_assets/images/testing-images/index.html-w3c-validator.png)
 
-> * about.html - ![Image](assets/ux_assets/images/about.html-w3c-validator.png)
+> * about.html - ![Image](assets/ux_assets/images/testing-images/about.html-w3c-validator.png)
 
-> * gallery.html - ![Image](assets/ux_assets/images/gallery.html-w3c-validator.png) 
+> * gallery.html - ![Image](assets/ux_assets/images/testing-images/gallery.html-w3c-validator.png) 
 
-> * get-in-touch.html - ![Image](assets/ux_assets/images/get-in-touch.html-w3c-validator.png)
+> * get-in-touch.html - ![Image](assets/ux_assets/images/testing-images/get-in-touch.html-w3c-validator.png)
 
 [**CSS Validator :**](https://jigsaw.w3.org/css-validator/)
 
-> * style.css - ![Image](assets/ux_assets/images/style.css-jigsaw-validator.png)
+> * style.css - ![Image](assets/ux_assets/images/testing-images/style.css-jigsaw-validator.png)
+
 ---
 # DEPLOYMENT
 ---
