@@ -47,7 +47,7 @@
 > * Use of Bootstrap: addressing user stories 2 & 5.
 
 **Project Content** 
->Within [Balsamiq](https://balsamiq.com/) a [table](/workspace/discover-new-zealand/assets/ux_assets/images/content-table.pdf) of possible content was created to populate the project. A **wireframe site map** was then created to structure the content and project as a whole.
+>Within [Balsamiq](https://balsamiq.com/) a [table](https://github.com/5-ean/discover-new-zealand/blob/563bcd72d188b530b0f83b66682e1105c0e8078d/assets/ux_assets/images/content-table.pdf) of possible content was created to populate the project. A **wireframe site map** was then created to structure the content and project as a whole.
 >
 > The [Wireframe](/workspace/discover-new-zealand/assets/ux_assets/images/sitemap-wireframe.pdf) site map is a rough guide. Some content has been removed, specifically *(content)FAQ's*, *(content)videos* and *(content)links through to booking* because it lacks importance or is not viable at this time. 
  
@@ -74,7 +74,6 @@
 > * [GITPOD](https://www.gitpod.io/) : The interaction development environment (IDE) used to write the projects code.
 > * [GITHUB](https://github.com/) : Provides hosting for software development version control using Git. The host of this project.
 > * [GIT](https://git-scm.com/) : Git is a free and open source distributed version control system.
-
 ---
 # TESTING
 ---
