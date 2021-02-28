@@ -68,6 +68,7 @@
 **Home Page / Navigation & Footer Elements -**
 > * Bootstrap based Nav header, with collapse function in mobile view.
 > * Social links in footer element.
+>
 >![Image](assets/ux_assets/images/screenshots/index-mobile.png) ![Image](assets/ux_assets/images/screenshots/index-mobile-nav-active.png) ![Image](assets/ux_assets/images/screenshots/index-desktop.png) 
 
 **About Page / Information Content -** 
@@ -77,10 +78,12 @@
 
 **Gallery Page / Google Maps Location Links -**
 > * Three images contained in a bootstrap carousel, caption including breif description & Google maps link to picture location.
+>
 >![Image](assets/ux_assets/images/screenshots/gallery-mobile.png) ![Image](assets/ux_assets/images/screenshots/gallery-desktop.png)
 
 **Get In Touch Page / User Form submission -**
 > * Active user feedback on form submittion status, helpful hints and directions to aid the user.
+>
 >![Image](assets/ux_assets/images/screenshots/get-in-touch-mobile.png) ![Image](assets/ux_assets/images/screenshots/get-in-touch-desktop.png)
 ---
 # TECHNOLOGIES USED
@@ -112,6 +115,15 @@
 
 > * style.css - ![Image](assets/ux_assets/images/testing-images/style.css-jigsaw-validator.png)
 
+[**Google Lighthouse :**](https://developers.google.com/web/tools/lighthouse/)
+
+>Index.html - 
+> * [Mobile Test](https://github.com/5-ean/discover-new-zealand/blob/1e302f3a19cb9edb755af3fda2546d08fa2daaae/assets/ux_assets/images/lighthouse-images/index-mobile.pdf)
+> * [Desktop Test](https://github.com/5-ean/discover-new-zealand/blob/1e302f3a19cb9edb755af3fda2546d08fa2daaae/assets/ux_assets/images/lighthouse-images/index-desktop.pdf)
+
+>About.html - 
+> * []()
+> * []()
 ---
 # DEPLOYMENT
 ---
