@@ -6,7 +6,7 @@
 
 
 
-/* --------------------Special padding/margin/text-------------------- */
+/* --------------------Special positioning, padding, margin & text-------------------- */
 
 html {
     position: relative;
@@ -44,7 +44,7 @@ form.container{
 
 /* --------------------body/backgrounds/images-------------------- */
 
-/* Taken from TalkersCode.com */
+/* Taken from TalkersCode.com: Full Width background image */
 .hero-image {
 
     background: url(../images/hero-image.jpg) no-repeat center center fixed; 
@@ -113,8 +113,8 @@ a#title {
 }
 
 
-/* --------------------/section/carousel/form-------------------- */
-
+/* --------------------Content section-------------------- */
+/* form section */
 form {
     padding: 5px 5px;
     margin: 15px 5px;
@@ -144,6 +144,9 @@ textarea + div {
     padding: 5px 5px;
     border-radius: .25rem;
 }
+/* /.form section */
+
+/* about content section */
 div.text-center button {
     border: 5px solid #343A40;
 }
@@ -182,10 +185,6 @@ div .content-text {
     border-radius: .25rem;
 }
 
-h5 {
-    color: black;
-}
-
 p {
     color: black;
     line-height: 150%;
@@ -198,12 +197,15 @@ p {
 div > p > button {
     margin: 5px;
 }
-
+/* carousel section */
+h5 {
+    color: black;
+}
 .carousel-item img{
     border: 8px solid rgba(185, 185, 185, 1);
     border-radius: .25rem;
 }
-
+/* Pindrop google maps link icon: */
 #nz-carousel > div > div > div > p > a > i {
     margin: 0 0;
     padding: 0 0;
@@ -214,6 +216,7 @@ div > p > button {
 #nz-carousel > div > div > div > p > a > i:hover {
     color: white;
 }
+/* /.carousel section */
 
 /* --------------------footer-------------------- */ 
 footer {
