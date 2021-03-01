@@ -57,6 +57,12 @@
 
 **Colour Scheme & Background**
 > The pictures used for the project were of natural landscapes with high ratios of green, blue, white, and brown colouring. Therefore, the stylistic choice was to use off white/grey colouring with opacity for the nav header & footer elements. This along with subtle, thin borders around content elements gave a natural feel to the site overall.
+> 
+>  *Header & Footer background colours:*
+> * rgba(185, 185, 185, 0.5)
+>  
+>  *Content background colour:*
+> * rgba(255, 255, 255, 0.5 - 0.7)
 
 **Buttons & Links**
 
@@ -65,24 +71,29 @@
 ---
 # FEATURES
 ---
-**Home Page / Navigation & Footer Elements -**
+**Home Page / Layout / Navigation & Footer Elements -**
+> * Simple easy to understand layout, user feedback on links both internal and external.
 > * Bootstrap based Nav header, with collapse function in mobile view.
 > * Social links in footer element.
+> * Answers User story 2, 4 & 5
 >
 >![Image](assets/ux_assets/images/screenshots/index-mobile.png) ![Image](assets/ux_assets/images/screenshots/index-mobile-nav-active.png) ![Image](assets/ux_assets/images/screenshots/index-desktop.png) 
 
 **About Page / Information Content -** 
 > * Detailed information section, with Learn more button links to relavent wiki pages for additional information.
+> * Answers User story 1.
 >
 >![Image](assets/ux_assets/images/screenshots/about-mobile.png) ![Image](assets/ux_assets/images/screenshots/about-desktop.png)
 
 **Gallery Page / Google Maps Location Links -**
 > * Three images contained in a bootstrap carousel, caption including breif description & Google maps link to picture location.
+> * Answers User story 3.
 >
 >![Image](assets/ux_assets/images/screenshots/gallery-mobile.png) ![Image](assets/ux_assets/images/screenshots/gallery-desktop.png)
 
 **Get In Touch Page / User Form submission -**
 > * Active user feedback on form submittion status, helpful hints and directions to aid the user.
+> * Answers User story 4.
 >
 >![Image](assets/ux_assets/images/screenshots/get-in-touch-mobile.png) ![Image](assets/ux_assets/images/screenshots/get-in-touch-desktop.png)
 ---
@@ -101,6 +112,16 @@
 ---
 # TESTING
 ---
+### Links :
+> * All social links tested and open in seperate windows.
+> * All internal navigation links tested and lead to described locations within same browser window.
+> * All pindrop google map links (gallery.html- carousel caption area) tested, open in new window and correspond to image displayed on website.
+
+### Form :
+> * Can not submit form without all inputs fields being filled in. Valid and invalid feedback helps users achieve goal.
+> * Must enter valid email into form.
+> * If all fields are entered correctly, form will submit/reset.
+
 [**W3C Validator :**](https://validator.w3.org/)
 
 > * Index.html - ![Image](assets/ux_assets/images/testing-images/index.html-w3c-validator.png)
@@ -135,6 +156,18 @@
 > * [Desktop Test](assets/ux_assets/images/lighthouse-images/get-in-touch-desktop.pdf)
 > * Notes - Drop in accessibility rating for form as there are no labels for inputs. It was stylistic choice; not corrected at this time. A Fix would be to apply labels to all form elements instead of using placeholders, to better describe the field.
 
+**Bugs & Fixes**
+
+>General - 
+> * Text sizing issue within nav and footer sections. Had to use media queries based on veiwport width to adjust at different breakpoints. This resized the text so it wasn't so large on smaller devices.
+> * I could not give my hero-image class (Website background) an alt attribute. Still not resolved, this will have to be a future fix. It affects accessibility on all pages.
+> * Container-fluid class margin L + R auto causes issues in md, lg and larger screen sizes. The width is not being used effectively. Not fixed at this time, but site is still viewable on all devices.
+
+>About Page: Learn More Button - 
+> * Originally an < a > link nested inside a button element, this is invalid by w3c standards. Link leads to relevant wikipedia source page. Fixed using solution from stack overflow. Onclick="window.open(...) allowed me to remove < a > element and keep button element inplace.
+
+>Get In Touch Page: Form - 
+> * On page opening invalid feedback is present, ideally the form would be neutral untill interacted with by user. No Fixed at this time, due to complexity and lack of understanding on my part, will be revisited. 
 ---
 # DEPLOYMENT
 ---
@@ -151,8 +184,19 @@
 ---
 # CREDITS
 ---
+**Hints/Tips/Documentation**
+> * [W3School](https://www.w3schools.com/) - For general HTML 5 & CSS 3 help.
+> * [Stack Overflow](https://stackoverflow.com/) - Used for specific problems and fixes.
+> * [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Informing layout and content of website. Instrumental in execution of project.
+> * [Google](https://www.google.com/) - When in doubt...
 
+**References**
+> * [Code Institute](https://codeinstitute.net/) - Project inspired by Rosie (resume-project) & Whiskey Drop project.
+> * [Wikipedia](https://www.wikipedia.org/) - Pages used as links in 'about.html' learn more buttons.
+> * [Google maps](https://www.google.co.uk/maps) - Used for pindrop link in bootstrap carousel caption area.
+> * Text & Images - Text generation by myself and Wikipedia. All images for the Project were taken by myself.
 
-
-
+**Special Mentions**
+> * Code Institute/Slack community  - for the support and motivation
+> * Rahul Patil - Mentoring and advice. 
 
