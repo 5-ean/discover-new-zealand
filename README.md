@@ -1,5 +1,10 @@
 
 # **DISCOVER NEW ZEALAND** 
+[Live Site Link](https://5-ean.github.io/discover-new-zealand/index.html)
+
+>
+> ![Image](assets/ux_assets/images/mock-up.png)
+>
 ---
 # INTRODUCTION
 ---
