@@ -51,7 +51,8 @@
     <form class="container content-bg content-text was-validated">
         <div class="form-row">
             <div class="col-6">
-            <input type="text" class="form-control bold" placeholder="First name" required>
+                <label for="fname" class="bold content-text">First Name</label>
+            <input type="text" class="form-control bold" placeholder="Joe" id="fname" required>
             <div class="valid-feedback bold">
                 Looks good!
             </div>
@@ -60,7 +61,8 @@
             </div>
             </div>
             <div class="col-6">
-            <input type="text" class="form-control bold" placeholder="Last name" required>
+                <label for="lname" class="bold content-text">Last Name</label>
+            <input type="text" class="form-control bold" placeholder="Smith" id="lname" required>
             <div class="valid-feedback bold">
                 Looks good!
             </div>
@@ -71,7 +73,8 @@
         </div>
          <div class="form-row">
             <div class="col">
-                <input type="email" class="form-control bold" id="email" placeholder="Enter email address" aria-describedby="emailtextblock" required>
+                <label for="email" class="bold content-text">Email Address</label>
+                <input type="email" class="form-control bold" id="email" placeholder="JoeSmith@emailprovider.com" aria-describedby="emailtextblock" required>
                     <div class="valid-feedback bold">
                     Looks good!
                     </div>
@@ -84,11 +87,9 @@
             </div>
         </div>
         <div class="form-row">
-                <div class="col text-center">
-                    <label for="inputregion" class="bold col-form-label bg-light">Your Region :</label>
-                </div>
                 <div class="col">
-                    <select id="inputregion" class="form-control col-9 content-text bold" required>
+                    <label for="inputregion" class="bold content-text">Your Region</label>
+                    <select id="inputregion" class="form-control content-text bold" required>
                         <option selected disabled value="">Choose...</option>
                         <option value="1">Africa</option>
                         <option value="2">Asia</option>
@@ -111,7 +112,8 @@
         </div>
         <div class="form-row">
             <div class="col">
-                <textarea rows="5" class="form-control content-text bold" placeholder="Please put your question/message here..." required></textarea>
+                <label for="textarea" class="bold content-text">Your Message</label>
+                <textarea rows="5" class="form-control content-text bold" id="textarea" placeholder="Please put your question/message here..." required></textarea>
                     <div class="col-sm col-md col-lg-4 valid-feedback bold content-bg-text text-center">
                     Thanks for taking the time to write your enquiry to us!
                     </div>
@@ -123,7 +125,7 @@
         <div class="form-row">
             <div class="col-12 col-md-8">
                 <div class="form-check form-check-inline">
-                    <label class="content-text bold bg-light">Would you like to receive emails for us with promotions and offers exclusively about discovering New Zealand?</label>
+                    <label class="bold content-text">Would you like to receive emails for us with promotions and offers exclusively about discovering New Zealand?</label>
                 </div>
             </div>
             <div class="col-6 col-md pt-2 text-center">
