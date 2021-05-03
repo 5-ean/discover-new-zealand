@@ -87,9 +87,95 @@
     <footer>
         <div class="container-fluid footer-container footer-bg">
             <div class="row">
-                <div class="col">
-                    <p class="copywrite"><small><i class="fas fa-copyright"></i> 5-ean 2021</small></p>
-                </div>
+                 <!-- Based on Bootstrap V4.6 modal documentation -->
+                <div class="col text-center">
+                        <button type="button" data-toggle="modal" data-target="#form-modal"><h4 class="heading-text uppercase">Contact Us</h4></button>
+                    </div>
+                    <div class="modal fade" id="form-modal" tabindex="-1" aria-labelledby="Get in touch form modal" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title content-text bold uppercase" id="exampleModalLabel">Get In Touch</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <form class="content-text">
+                                    <div class="form-row">
+                                        <div class="col-6">
+                                            <label for="fname" class="bold content-text">First Name</label>
+                                        <input type="text" class="form-control bold" placeholder="Joe" id="fname" required>
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="lname" class="bold content-text">Last Name</label>
+                                        <input type="text" class="form-control bold" placeholder="Smith" id="lname" required>
+                                        </div>
+                                    </div>
+                                     <div class="form-row">
+                                        <div class="col">
+                                            <label for="email" class="bold content-text">Email Address</label>
+                                            <input type="email" class="form-control bold" id="email" placeholder="JoeSmith@emailprovider.com" aria-describedby="emailtextblock" required>
+                                            <small id="emailtextblock" class="form-text">
+                                                We do not give out your email address to third parties. Your personal data is safe with us!  
+                                            </small>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                            <div class="col">
+                                                <label for="inputregion" class="bold content-text">Your Region</label>
+                                                <select id="inputregion" class="form-control content-text bold" required>
+                                                    <option selected disabled value="">Choose...</option>
+                                                    <option value="1">Africa</option>
+                                                    <option value="2">Asia</option>
+                                                    <option value="3">Central America</option>
+                                                    <option value="4">Eastern Europe</option>
+                                                    <option value="5">European Union</option>
+                                                    <option value="6">Middle East</option>
+                                                    <option value="7">North America</option>
+                                                    <option value="8">Oceania</option>
+                                                    <option value="9">South America</option>
+                                                    <option value="10">The Caribbean</option>
+                                                </select>
+                                            </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <label for="textarea" class="bold content-text">Your Message</label>
+                                            <textarea rows="5" class="form-control content-text bold" id="textarea" placeholder="Please put your question/message here..." required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-12 col-md-8">
+                                            <div class="form-check form-check-inline">
+                                                <label class="bold content-text">Would you like to receive emails for us with promotions and offers exclusively about discovering New Zealand?</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md pt-2 text-center">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" id="radioYes" value="option1" name="radio" required>
+                                                <label class="form-check-label content-text bold bg-light" for="radioYes">Yes</label>
+                                            </div>
+                                        </div>
+                                         <div class="col-6 col-md pt-2 text-center">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" id="radioNo" value="option2" name="radio" required>
+                                                <label class="form-check-label content-text bold bg-light" for="radioNo">No</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-lg btn-outline-dark bold">Submit</button>
+                                    </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    
+                <div class="col-3 d-none d-sm-block">
+                        <p class="copywrite text-center"><small><i class="fas fa-copyright"></i> 5-ean 2021</small></p>
+                    </div>
                 <div class="col">
                     <div class="social-section">
                         <h4 class="heading-text uppercase d-none d-sm-block">Social</h4>
@@ -121,7 +207,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>    
+            </div>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

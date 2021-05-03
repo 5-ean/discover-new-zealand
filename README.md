@@ -172,7 +172,7 @@
 > * Originally an < a > link nested inside a button element, this is invalid by w3c standards. Link leads to relevant wikipedia source page. Fixed using solution from stack overflow. Onclick="window.open(...) allowed me to remove < a > element and keep button element inplace.
 
 >Get In Touch Page: Form - 
-> * On page opening invalid feedback is present, ideally the form would be neutral untill interacted with by user. No Fixed at this time, due to complexity and lack of understanding on my part, will be revisited. 
+> * On page opening invalid feedback is present, ideally the form would be neutral until interacted with by the user. No Fixed at this time, due to complexity and lack of understanding on my part, will be revisited. 
 ---
 # DEPLOYMENT
 ---
@@ -199,7 +199,7 @@
 > * [Code Institute](https://codeinstitute.net/) - Project inspired by Rosie (resume-project) & Whiskey Drop project.
 > * [Wikipedia](https://www.wikipedia.org/) - Pages used as links in 'about.html' learn more buttons.
 > * [Google maps](https://www.google.co.uk/maps) - Used for pindrop link in bootstrap carousel caption area.
-> * Text & Images - Text generation by myself and Wikipedia. All images for the Project were taken by myself.
+> * Text & Images - Text generation by myself and Wikipedia. All background images and gallery elements for the Project were taken by myself. 
 
 **Special Mentions**
 > * Code Institute/Slack community  - for the support and motivation
