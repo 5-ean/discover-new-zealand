@@ -146,9 +146,8 @@ textarea + div {
     padding: 5px 5px;
     border-radius: .25rem;
 }
-/* /.form section */
 
-/* about content section */
+/* About content section */
 div.text-center button {
     border: 5px solid #343A40;
 }
@@ -192,7 +191,7 @@ p {
 div > p > button {
     margin: 5px;
 }
-/* carousel section */
+/* Gallery section */
 h5 {
     color: black;
 }
@@ -216,7 +215,6 @@ div.col.text-center label {
 #nz-carousel > div > div > div > p > a > i:hover {
     color: white;
 }
-/* /.carousel section */
 
 /* video section */
 video {
@@ -229,35 +227,41 @@ div .content-text{
     padding: 2px 2px;
 }
 
-
-
 /* --------------------footer-------------------- */ 
 footer {
     position: absolute;
     left: 0;
     bottom: 0;
     height: 25px;
-    width: 100%;
-    
-    
+    width: 100%;    
 }
+
 .footer-container {
     color: black;
     margin-top: 55px;
 }
+/* Contact us modal */
+footer > div > div > div.col.text-center > button{
+border: none;
+background: none;
+}
 
+footer > div > div > div.col.text-center > button:hover{
+color: white;
+}
+/* Copywrite footer element */
 .copywrite {
     text-align: left;
     padding-top: 10px;
 }
-
+/* Social links */
 div.social-section {
     display: flex;
     justify-content: center;
     }
 
-div.social-section h4 {
-    text-align: center;
+div h4 {
+    text-align: justify;
     padding: 10px 10px;
     margin: 5px 0;
 }
@@ -280,7 +284,7 @@ div.social-section ul {
 
 
 /* --------------------Media Queries-------------------- */ 
-
+/* Controlling nav bar elements text size on differing devices */
 @media(min-width: 576px) {
     .navbar-brand {
         font-size: 3vw;

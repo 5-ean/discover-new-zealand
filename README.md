@@ -198,10 +198,17 @@
 **References**
 > * [Code Institute](https://codeinstitute.net/) - Project inspired by Rosie (resume-project) & Whiskey Drop project.
 > * [Wikipedia](https://www.wikipedia.org/) - Pages used as links in 'about.html' learn more buttons.
+> 1. History link and section - https://en.wikipedia.org/wiki/History_of_New_Zealand
+> 2. Wildlife link and section - https://en.wikipedia.org/wiki/Biodiversity_of_New_Zealand
+> 3. Activites link and section - https://en.wikipedia.org/wiki/Tourism_in_New_Zealand
 > * [Google maps](https://www.google.co.uk/maps) - Used for pindrop link in bootstrap carousel caption area.
-> * Text & Images - Text generation by myself and Wikipedia. All background images and gallery elements for the Project were taken by myself. 
+> * **Text & Images** - Text generation by myself and [Wikipedia](https://www.wikipedia.org/). Background images and gallery elements for the Project were taken by myself.
+> * [Pixabay](https://pixabay.com/) - Images from site used for about pages card pictures.
+> 1. Card 1 Maori image - Picture uploaded by Barni1.
+> 2. Card 2 Kea image - Picture uploaded by Barni1.
+> 3. Card 3 Tekapo image - Picture uploaded by bougetonglobe.
 
 **Special Mentions**
 > * Code Institute/Slack community  - for the support and motivation
-> * Rahul Patil - Mentoring and advice. 
+> * 
 
