@@ -244,6 +244,9 @@ footer {
 footer > div > div > div.col.text-center > button{
 border: none;
 background: none;
+font-size: larger;
+padding: 10px;
+margin: 5px 0px;
 }
 
 footer > div > div > div.col.text-center > button:hover{
