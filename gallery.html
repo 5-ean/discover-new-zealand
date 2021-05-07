@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/c5b2ceceb9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="static/assets/css/style.css" type="text/css">
     <title>Discover New Zealand |</title>
 </head>
 <body class="hero-image">
@@ -56,21 +56,21 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="assets/images/NZ_image1.jpg" class="d-block w-100 mb-3" alt="The Remarkables">
+                        <img src="static/assets/images/NZ_image1.jpg" class="d-block w-100 mb-3" alt="The Remarkables">
                         <div class="carousel-caption d-none d-md-block carousel-bg bold content-text content-bg-text">
                             <h5>The Remarkables</h5>
                             <p>The view facing west, near the base of Double Cone Mountian range. <a href="https://www.google.co.uk/maps/@-45.0629418,168.801737,3a,75y,270h,90t/data=!3m11!1e1!3m9!1sAF1QipN-fcrF7qt1vuI0n-SgwnEPEhMZPFHlIRiMiKNt!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN-fcrF7qt1vuI0n-SgwnEPEhMZPFHlIRiMiKNt%3Dw203-h100-k-no-pi-0-ya234-ro0-fo100!7i11264!8i5632!9m2!1b1!2i48" target="_blank"><i class="fas fa-map-marker-alt"></i></a></p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/images/NZ_image2.jpg" class="d-block w-100 mb-3" alt="Queenstown Lake Wakatipu">
+                        <img src="static/assets/images/NZ_image2.jpg" class="d-block w-100 mb-3" alt="Queenstown Lake Wakatipu">
                         <div class="carousel-caption d-none d-md-block carousel-bg bold content-text content-bg-text">
                             <h5>Queenstown</h5>
                             <p>The View looking out onto Lake Wakatipu from Queenstown lake front. <a href="https://www.google.co.uk/maps/@-45.0327835,168.6599009,3a,71.6y,207.79h,96.75t/data=!3m10!1e1!3m8!1s5mIxYLpt5CX0QkZicvLR8Q!2e0!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fpanoid%3D5mIxYLpt5CX0QkZicvLR8Q%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D45.04113%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656!9m2!1b1!2i48" target="_blank"><i class="fas fa-map-marker-alt"></i></a></p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/images/NZ_image3.jpg" class="d-block w-100 mb-3" alt="Double Cone Mountians">
+                        <img src="static/assets/images/NZ_image3.jpg" class="d-block w-100 mb-3" alt="Double Cone Mountians">
                         <div class="carousel-caption d-none d-md-block carousel-bg bold content-text content-bg-text">
                             <h5>Skyline Queenstown</h5>
                             <p>The view overlooking Queenstown and Lake Wakatipu from the Skyline Queenstown attraction. <a href="https://www.google.co.uk/maps/@-45.0266576,168.6496613,2a,75y,142.66h,99.17t/data=!3m10!1e1!3m8!1swWZ67X2uJQAm-UTXQkrurw!2e0!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3DwWZ67X2uJQAm-UTXQkrurw%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D328.19797%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656!9m2!1b1!2i48" target="_blank"><i class="fas fa-map-marker-alt"></i></a></p>
@@ -90,11 +90,11 @@
        <div class="container-fluid p-0">
            <div class="row">
                 <div class="col-12 col-sm-12 col-lg-6 mt-3 mb-3 d-flex justify-content-center">
-                <video src="assets/videos/vid1.mp4" id="vid1" controls muted></video>
+                <video src="static/assets/videos/vid1.mp4" id="vid1" controls muted></video>
                 <label class="carousel-caption d-none d-md-block carousel-bg bold content-text content-bg-text">Orakei Korako Geothermal Park & Cave</label>
                 </div>
                 <div class="col-12 col-sm-12 col-lg-6 mt-3 mb-3 d-flex justify-content-center">
-                <video src="assets/videos/vid2.mp4" id="vid2" controls muted></video>
+                <video src="static/assets/videos/vid2.mp4" id="vid2" controls muted></video>
                 <label class="carousel-caption d-none d-md-block carousel-bg bold content-text content-bg-text">Waikato River</label>
                 </div>
             </div>
@@ -118,7 +118,7 @@
                                 </button>
                               </div>
                               <div class="modal-body">
-                                <form class="content-text">
+                                <form class="content-text" onsubmit="alert('Form Submitted');return false">
                                     <div class="form-row">
                                         <div class="col-6">
                                             <label for="fname" class="bold content-text">First Name</label>

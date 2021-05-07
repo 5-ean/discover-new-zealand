@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/c5b2ceceb9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="static/assets/css/style.css" type="text/css">
     <title>Discover New Zealand |</title>
 </head>
 <body class="hero-image">
@@ -48,7 +48,7 @@
         </div>
     </div>
     <!-- Based on Bootstrap form documentation -->
-    <form class="container content-bg content-text was-validated">
+    <form class="container content-bg content-text was-validated" onsubmit="alert('Form Submitted');return false">
         <div class="form-row">
             <div class="col-6">
                 <label for="fname" class="bold content-text">First Name</label>
@@ -142,7 +142,7 @@
             </div>
         </div>
         <div class="text-center">
-            <button type="submit" class="btn btn-lg btn-outline-dark bold">Submit</button>
+            <button type="submit" value="submit" class="btn btn-lg btn-outline-dark bold">Submit</button>
         </div>
     </form>
     <!-- CI resume-project inspired footer elements -->
@@ -163,7 +163,7 @@
                                 </button>
                               </div>
                               <div class="modal-body">
-                                <form class="content-text">
+                                <form class="content-text" onsubmit="alert('Form Submitted');return false">
                                     <div class="form-row">
                                         <div class="col-6">
                                             <label for="modalfname" class="bold content-text">First Name</label>
